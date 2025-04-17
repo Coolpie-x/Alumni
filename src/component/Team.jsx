@@ -194,7 +194,7 @@ const Team = () => {
             insta: "https://www.instagram.com/rahul730"
           },
           {
-            name: "Reshmi Ghosh",
+            name: "Reshmi Saha",
             img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730922390/executive%20members/xl8sp1jafr5hantranlc.jpg",
             designation: "Senior Executive Member",
             linkedin: "https://www.linkedin.com/in/reshmi-saha-0386a9275",

@@ -4,7 +4,7 @@ import Events from "./Events";
 import Footer from "./Footer";
 import Loading from "./Loading";
 import { gsap } from "gsap";
-
+import Faculty from "./Faculty";
 const Home = () => {
   const [loading, setLoading] = useState(true);
 
@@ -100,6 +100,7 @@ const Home = () => {
       {/* Other Sections */}
       <About />
       <Events />
+      <Faculty />
       <Footer />
     </>
   );
