@@ -73,7 +73,7 @@ const Events = () => {
   </h1>
 </div>
 
-<div className="marquee bg-black lg:py-[5vw] relative w-full h-screen overflow-hidden left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%]">
+<div className=" bg-black lg:py-[5vw] relative w-full h-screen overflow-hidden left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%]">
   <div className="lg:mt-10 w-full  relative left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%]">
     <div className="flex w-max animate-scroll">
       {[...committeeMembers, ...committeeMembers].map((member, index) => (

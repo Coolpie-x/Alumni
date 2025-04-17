@@ -7,8 +7,7 @@ const Faculty = () => {
         {/* Left Section - Text Content */}
         <div className="flex-1 lg:px-[4vw] p-5">
           <h1 className="lg:text-[2.4vw] text-[7vw] font-bold  text-orange-300 mb-[1vw] uppercase">Faculty Message</h1>
-          <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit odit explicabo ad delectus maxime ducimus voluptas deserunt libero alias architecto, quod magnam. Eum, velit. Obcaecati velit aspernatur animi necessitatibus tempore?
+          <p className="text-lg leading-relaxed ">"As Faculty Advisor of SAIC, I take immense pride in the team’s dedication to fostering alumni-student engagement. Their initiatives truly strengthen our institute’s legacy and inspire meaningful connections across generations of NIT Durgapur."<br /><span className='font-bold captailize lg:text-[1.5vw]'>-Shibendu Shekhar Roy</span>
           </p>
         </div>
 
