@@ -376,8 +376,8 @@ const Team = () => {
     
     {
             name: "Piyush Raj",
-            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743931025/WhatsApp_Image_2025-04-06_at_1.48.18_PM_rs2qct.jpg",
-            designation: "destruction",
+            img: "https://instagram.fdbd3-1.fna.fbcdn.net/v/t51.2885-19/400294404_311749291652723_6534740127834398029_n.jpg?_nc_ht=instagram.fdbd3-1.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QFLJD6u3i2pcxwTP5cSWAIxa_N1RZnwFH4Ns7hmJf5vXb_npJnPG65ox9iDel00_BY&_nc_ohc=-hME8tu-HHMQ7kNvwEVjpjT&_nc_gid=7xf_UPhOJSqroqJOAsbSJA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfF_699Y6RSA5cwejp1HO3VzKyF2Yy7ywdn9asScHY3JRg&oe=6806B5A8&_nc_sid=7a9f4b",
+            designation: "Executive Member",
             linkedin: "n/a",
             insta: "https://www.instagram.com/piyush_coolpie?igsh=eDB4NWt3bGU1cDJh"
           },
