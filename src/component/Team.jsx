@@ -312,7 +312,7 @@ const Team = () => {
           },
           {
             name: "Joys Pakalapati",
-            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743931405/Pakalpati_Joys_didi_g3c1gn.jpg",
+            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744228917/WhatsApp_Image_2025-03-28_at_11.00.58_AM_oczar6.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/joy-samuel-1b9246288",
             insta: "https://www.instagram.com/joy_pakalapati"
@@ -333,13 +333,13 @@ const Team = () => {
           },
           {
             name: "Satyake Sadhukhan",
-            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743931404/Satyake_bhaiya_vobdrt.jpg",
+            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744228919/WhatsApp_Image_2025-04-09_at_11.31.18_PM_g0hdbn.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/satyake-sadhukhan-6260a8334",
             insta: "https://www.instagram.com/satyakesadhukhan"
           },
           {
-            name: "Shafiya Tasneem Shaik",
+            name: "Shaik Safiya Tasneen",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743931404/Safiya_didi_uxbe9m.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/safiya-tasneem-901667217",
@@ -368,7 +368,7 @@ const Team = () => {
           },
     {
             name: "Beas",
-            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743960288/WhatsApp_Image_2025-04-06_at_6.11.44_PM_oirypl.jpg",
+            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744222055/WhatsApp_Image_2025-04-06_at_6.11.44_PM_fmqphq_bi0ta0.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/beas-das-00a4b5351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             insta: "https://www.instagram.com/kookoomberriee?igsh=MTY3dXpod29vZTE2OA=="
@@ -376,7 +376,7 @@ const Team = () => {
     
     {
             name: "Piyush Raj",
-            img: "https://instagram.fdbd3-1.fna.fbcdn.net/v/t51.2885-19/400294404_311749291652723_6534740127834398029_n.jpg?_nc_ht=instagram.fdbd3-1.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QFLJD6u3i2pcxwTP5cSWAIxa_N1RZnwFH4Ns7hmJf5vXb_npJnPG65ox9iDel00_BY&_nc_ohc=-hME8tu-HHMQ7kNvwEVjpjT&_nc_gid=7xf_UPhOJSqroqJOAsbSJA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfF_699Y6RSA5cwejp1HO3VzKyF2Yy7ywdn9asScHY3JRg&oe=6806B5A8&_nc_sid=7a9f4b",
+            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744229331/pie_uinvxz.jpg",
             designation: "Executive Member",
             linkedin: "n/a",
             insta: "https://www.instagram.com/piyush_coolpie?igsh=eDB4NWt3bGU1cDJh"
