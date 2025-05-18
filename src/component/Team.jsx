@@ -285,7 +285,7 @@ const Team = () => {
           },
           {
             name: "Aparup Goswami",
-            img: "./aparup.jpg",
+            img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743931405/Aparup_bhaiya_yi6ftj.jpg",
             designation: "Senior Executive Member",
             linkedin: "https://www.linkedin.com/in/aparup-goswami-053b4927b",
             insta: "https://www.instagram.com/aparup._14"
