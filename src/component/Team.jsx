@@ -4,138 +4,6 @@ const Team = () => {
    
     const sections = [
       {
-        /*
-        title: "super Final Year",
-        members: [
-          {
-            name: "Amanjyoti Mullick",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/p2ovs3l6oadta0f72xoq.jpg",
-            designation: "President",
-            linkedin: "https://www.linkedin.com/in/amanjyoti-mullick-53376122b",
-            insta: "n/a"
-          },
-          {
-            name: "Shayoni Mahato",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/ykyljv9quawf9qdjiihl.jpg",
-            designation: "Vice President",
-            linkedin: "https://www.linkedin.com/in/shayoni-mahato-bba1b6241",
-            insta: "https://www.instagram.com/shayoni_3"
-          },
-          {
-            name: "Balli Chanukya",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/hsmeaov6ztrhhbnbjctt.jpg",
-            designation: "General Secretary",
-            linkedin: "https://www.linkedin.com/in/balli-chanukya-52191123a",
-            insta: "https://www.instagram.com/chanukya_balli"
-          },
-          {
-            name: "Arindam Chatterjee",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/wgd89kof6ash0jzwzmxh.jpg",
-            designation: "Assistant General Secretary",
-            linkedin: "https://www.linkedin.com/in/aric21",
-            insta: "https://www.instagram.com/arindam_ct?igsh=eGg3dXhmdThhbW5h"
-          },
-          {
-            name: "Soumik Roy Chowdhury",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/q3hh4avon9rlihzcqxjm.jpg",
-            designation: "Treasurer",
-            linkedin: "https://www.linkedin.com/in/soumikrc08",
-            insta: "https://www.instagram.com/soumikrcdeep?igsh=OW45bHE2cmd5ZmNj"
-          },
-          {
-            name: "T.V.N.S. Praveen",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/fc6v8wlwc5d3hudil1qi.jpg",
-            designation: "Joint Treasurer",
-            linkedin: "https://www.linkedin.com/in/praveen-t-v-n-s-5393ab223",
-            insta: "https://www.instagram.com/p_r_a_v_e_e_n_t_h_o_t_a?igsh=MXhwM3FzMzE3dDNsbA=="
-          },
-          {
-            name: "Satyaki Chaudhuri",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/jbjuktjkbasu0jqjlsj4.jpg",
-            designation: "Convenor",
-            linkedin: "https://www.linkedin.com/in/satyaki-chaudhuri-a18183224",
-            insta: "https://www.instagram.com/sat__cha"
-          },
-          {
-            name: "Sai Kiran",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/pboacl48gtirytlsgssa.jpg",
-            designation: "Graphic Designing Head",
-            linkedin: "https://www.linkedin.com/in/sai-kiran-k-938b81235",
-            insta: "https://www.instagram.com/_itskkiran"
-          },
-          {
-            name: "Rounak Sarkar",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/gmt4lequbjnz0ecrsqjf.jpg",
-            designation: "Graphic Designing Head",
-            linkedin: "https://www.linkedin.com/in/rounaksarkar360",
-            insta: "https://www.instagram.com/rounak_396"
-          },
-          {
-            name: "Sneha Ghosh",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/dwtw4uop6ntr5qraelby.jpg",
-            designation: "Content Head",
-            linkedin: "https://www.linkedin.com/in/sneha-g-521019230",
-            insta: "https://www.instagram.com/sneha.g.15"
-          },
-          {
-            name: "Abheerup Sarkar",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/lbjanawjbwnmxkbigujz.jpg",
-            designation: "Content Head",
-            linkedin: "https://www.linkedin.com/in/abheerup-sarker-202a6a236",
-            insta: "https://www.instagram.com/abheerup_sarker"
-          },
-          {
-            name: "Soumyadip Debnath",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/mi4a2zccl57xogtbpkba.jpg",
-            designation: "Event Head",
-            linkedin: "https://www.linkedin.com/in/soumyadip-debnath",
-            insta: ""
-          },
-          {
-            name: "Samanvita",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/xnxv8jrmnkpfjgqmeznz.jpg",
-            designation: "Publicity Head",
-            linkedin: "https://www.linkedin.com/in/samanvita-macherla-091728241",
-            insta: "https://www.instagram.com/jst__sam"
-          },
-          {
-            name: "N.Surya Hemanth",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/qa8folekeqp3mtsdohea.jpg",
-            designation: "Social Media Head",
-            linkedin: "https://www.linkedin.com/in/suryahemanth-narsupalli",
-            insta: "https://www.instagram.com/suryahemanth.n"
-          },
-          {
-            name: "Satish Abbadasari",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/irysnmsnde9iyletii04.jpg",
-            designation: "Social Media Head",
-            linkedin: "https://www.linkedin.com/in/satish-abbadasari-065359270",
-            insta: "https://www.instagram.com/satish_3043"
-          },
-          {
-            name: "Arnab Nath",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/o9aic9t1kd2rvemxix2f.jpg",
-            designation: "Web Development Head",
-            linkedin: "https://www.linkedin.com/in/arnabnath01",
-            insta: "https://www.instagram.com/arnab_nath_01"
-          },
-          {
-            name: "Sudipta Das",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/ktzpouqwurdzpzav7h3b.jpg",
-            designation: "Web Development Head",
-            linkedin: "https://www.linkedin.com/in/sudipta-das-128b70252",
-            insta: "https://www.instagram.com/sudipta_d.insta"
-          },
-          {
-            name: "Nikhil Kumar",
-            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/mtk7yatxzy4e0ed9pb7p.jpg",
-            designation: "Video Editing Head",
-            linkedin: "https://www.linkedin.com/in/nikhil-kumar-860034236",
-            insta: "https://www.instagram.com/nikhil_raghvan"
-          }
-        ]
-      },
-      {  */
         title: "Final Year",
         members: [
           {
@@ -232,7 +100,7 @@ const Team = () => {
           {
             name: "Pratishtha Barua",
             img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730922394/executive%20members/ja6oplur1wpw9xoa7p4v.jpg",
-            designation: "Operations & Video Editing Head",
+            designation: "Operations & Sponsership Head",
             linkedin: "https://www.linkedin.com/in/pratishtha-barua-06a371285",
             insta: "https://www.instagram.com/pratishthabarua_"
           },
@@ -378,7 +246,7 @@ const Team = () => {
     {
             name: "Piyush Raj",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744229331/pie_uinvxz.jpg",
-            designation: "Superior Executive Member",
+            designation: "Senior Executive Member",
             linkedin: "n/a",
             insta: "https://www.instagram.com/piyush_coolpie?igsh=eDB4NWt3bGU1cDJh"
           },
@@ -513,6 +381,137 @@ const Team = () => {
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/yash-kumar-singh-18843232a",
             insta: "https://www.instagram.com/yashhh2501"
+          }
+        ]
+      },
+            {
+        title: "Super Final Year",
+        members: [
+          {
+            name: "Amanjyoti Mullick",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/p2ovs3l6oadta0f72xoq.jpg",
+            designation: "President",
+            linkedin: "https://www.linkedin.com/in/amanjyoti-mullick-53376122b",
+            insta: "n/a"
+          },
+          {
+            name: "Shayoni Mahato",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/ykyljv9quawf9qdjiihl.jpg",
+            designation: "Vice President",
+            linkedin: "https://www.linkedin.com/in/shayoni-mahato-bba1b6241",
+            insta: "https://www.instagram.com/shayoni_3"
+          },
+          {
+            name: "Balli Chanukya",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/hsmeaov6ztrhhbnbjctt.jpg",
+            designation: "General Secretary",
+            linkedin: "https://www.linkedin.com/in/balli-chanukya-52191123a",
+            insta: "https://www.instagram.com/chanukya_balli"
+          },
+          {
+            name: "Arindam Chatterjee",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/wgd89kof6ash0jzwzmxh.jpg",
+            designation: "Assistant General Secretary",
+            linkedin: "https://www.linkedin.com/in/aric21",
+            insta: "https://www.instagram.com/arindam_ct?igsh=eGg3dXhmdThhbW5h"
+          },
+          {
+            name: "Soumik Roy Chowdhury",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/q3hh4avon9rlihzcqxjm.jpg",
+            designation: "Treasurer",
+            linkedin: "https://www.linkedin.com/in/soumikrc08",
+            insta: "https://www.instagram.com/soumikrcdeep?igsh=OW45bHE2cmd5ZmNj"
+          },
+          {
+            name: "T.V.N.S. Praveen",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/fc6v8wlwc5d3hudil1qi.jpg",
+            designation: "Joint Treasurer",
+            linkedin: "https://www.linkedin.com/in/praveen-t-v-n-s-5393ab223",
+            insta: "https://www.instagram.com/p_r_a_v_e_e_n_t_h_o_t_a?igsh=MXhwM3FzMzE3dDNsbA=="
+          },
+          {
+            name: "Satyaki Chaudhuri",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/jbjuktjkbasu0jqjlsj4.jpg",
+            designation: "Convenor",
+            linkedin: "https://www.linkedin.com/in/satyaki-chaudhuri-a18183224",
+            insta: "https://www.instagram.com/sat__cha"
+          },
+          {
+            name: "Sai Kiran",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/pboacl48gtirytlsgssa.jpg",
+            designation: "Graphic Designing Head",
+            linkedin: "https://www.linkedin.com/in/sai-kiran-k-938b81235",
+            insta: "https://www.instagram.com/_itskkiran"
+          },
+          {
+            name: "Rounak Sarkar",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/gmt4lequbjnz0ecrsqjf.jpg",
+            designation: "Graphic Designing Head",
+            linkedin: "https://www.linkedin.com/in/rounaksarkar360",
+            insta: "https://www.instagram.com/rounak_396"
+          },
+          {
+            name: "Sneha Ghosh",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/dwtw4uop6ntr5qraelby.jpg",
+            designation: "Content Head",
+            linkedin: "https://www.linkedin.com/in/sneha-g-521019230",
+            insta: "https://www.instagram.com/sneha.g.15"
+          },
+          {
+            name: "Abheerup Sarkar",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/lbjanawjbwnmxkbigujz.jpg",
+            designation: "Content Head",
+            linkedin: "https://www.linkedin.com/in/abheerup-sarker-202a6a236",
+            insta: "https://www.instagram.com/abheerup_sarker"
+          },
+          {
+            name: "Soumyadip Debnath",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/mi4a2zccl57xogtbpkba.jpg",
+            designation: "Event Head",
+            linkedin: "https://www.linkedin.com/in/soumyadip-debnath",
+            insta: ""
+          },
+          {
+            name: "Samanvita",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/xnxv8jrmnkpfjgqmeznz.jpg",
+            designation: "Publicity Head",
+            linkedin: "https://www.linkedin.com/in/samanvita-macherla-091728241",
+            insta: "https://www.instagram.com/jst__sam"
+          },
+          {
+            name: "N.Surya Hemanth",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924687/post%20bearers/qa8folekeqp3mtsdohea.jpg",
+            designation: "Social Media Head",
+            linkedin: "https://www.linkedin.com/in/suryahemanth-narsupalli",
+            insta: "https://www.instagram.com/suryahemanth.n"
+          },
+          {
+            name: "Satish Abbadasari",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924690/post%20bearers/irysnmsnde9iyletii04.jpg",
+            designation: "Social Media Head",
+            linkedin: "https://www.linkedin.com/in/satish-abbadasari-065359270",
+            insta: "https://www.instagram.com/satish_3043"
+          },
+          {
+            name: "Arnab Nath",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/o9aic9t1kd2rvemxix2f.jpg",
+            designation: "Web Development Head",
+            linkedin: "https://www.linkedin.com/in/arnabnath01",
+            insta: "https://www.instagram.com/arnab_nath_01"
+          },
+          {
+            name: "Sudipta Das",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924689/post%20bearers/ktzpouqwurdzpzav7h3b.jpg",
+            designation: "Web Development Head",
+            linkedin: "https://www.linkedin.com/in/sudipta-das-128b70252",
+            insta: "https://www.instagram.com/sudipta_d.insta"
+          },
+          {
+            name: "Nikhil Kumar",
+            img: "https://res.cloudinary.com/dzdb9pahz/image/upload/v1730924688/post%20bearers/mtk7yatxzy4e0ed9pb7p.jpg",
+            designation: "Video Editing Head",
+            linkedin: "https://www.linkedin.com/in/nikhil-kumar-860034236",
+            insta: "https://www.instagram.com/nikhil_raghvan"
           }
         ]
       }
