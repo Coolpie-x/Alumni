@@ -385,7 +385,7 @@ const Team = () => {
         ]
       },
             {
-        title: "Super Final Year",
+        title: "2025 Batch",
         members: [
           {
             name: "Amanjyoti Mullick",
