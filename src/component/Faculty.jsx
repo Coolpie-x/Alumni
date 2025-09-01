@@ -20,8 +20,9 @@ const Faculty = () => {
                 className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
-              <h3 className="text-white text-xl font-bold">Shri Krishan Rai</h3>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
+              <h3 className="text-white text-xl font-bold">Dr. Shri Krishan Rai</h3>
+              <p className="text-white text-sm mt-1">Humanities and Social Sciences</p>
             </div>
           </div>
           
@@ -29,13 +30,14 @@ const Faculty = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-xl border-2 border-white">
               <img
-                src="https://nitdgp.ac.in/uploads/8cbc75ef6d94a6dcb692307fee534694.jpeg"  // Replace with actual image URL
+                src="https://nitdgp.ac.in/uploads/8cbc75ef6d94a6dcb692307fee534694.jpeg"
                 alt="Faculty Adviser"
                 className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
-              <h3 className="text-white text-xl font-bold">Manisha Bal</h3>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
+              <h3 className="text-white text-xl font-bold">Dr. Manisha Bal</h3>
+              <p className="text-white text-sm mt-1">Chemical Engineering</p>
             </div>
           </div>
         </div>
