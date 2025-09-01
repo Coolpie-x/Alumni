@@ -9,35 +9,38 @@ const Faculty = () => {
           MEET OUR FACULTY ADVISERS
         </h1>
         
-        {/* Faculty Cards Container */}
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center w-full">
-          {/* First Faculty Card */}
-          <div className="relative group">
-            <div className="overflow-hidden rounded-xl border-2 border-white">
-              <img
-                src="https://nitdgp.ac.in/uploads/92.jpg"
-                alt="Faculty Adviser"
-                className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
+        {/* Outer Box with #ffd4ac border */}
+        <div className="rounded-xl border-2 border-[#ffd4ac] p-8 md:p-10 w-full max-w-4xl">
+          {/* Faculty Cards Container */}
+          <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center w-full">
+            {/* First Faculty Card */}
+            <div className="relative group">
+              <div className="overflow-hidden rounded-xl border-2 border-[#ffd4ac]">
+                <img
+                  src="https://nitdgp.ac.in/uploads/92.jpg"
+                  alt="Faculty Adviser"
+                  className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
+                <h3 className="text-[#ffd4ac] text-xl font-bold">Dr. Shri Krishan Rai</h3>
+                <p className="text-white text-sm mt-1">Humanities and Social Sciences</p>
+              </div>
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
-              <h3 className="text-[#ffd4ac] text-xl font-bold">Dr. Shri Krishan Rai</h3>
-              <p className="text-white text-sm mt-1">Humanities and Social Sciences</p>
-            </div>
-          </div>
-          
-          {/* Second Faculty Card */}
-          <div className="relative group">
-            <div className="overflow-hidden rounded-xl border-2 border-white">
-              <img
-                src="https://nitdgp.ac.in/uploads/8cbc75ef6d94a6dcb692307fee534694.jpeg"
-                alt="Faculty Adviser"
-                className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
-              <h3 className="text-[#ffd4ac] text-xl font-bold">Dr. Manisha Bal</h3>
-              <p className="text-white text-sm mt-1">Chemical Engineering</p>
+            
+            {/* Second Faculty Card */}
+            <div className="relative group">
+              <div className="overflow-hidden rounded-xl border-2 border-[#ffd4ac]">
+                <img
+                  src="https://nitdgp.ac.in/uploads/8cbc75ef6d94a6dcb692307fee534694.jpeg"
+                  alt="Faculty Adviser"
+                  className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-center">
+                <h3 className="text-[#ffd4ac] text-xl font-bold">Dr. Manisha Bal</h3>
+                <p className="text-white text-sm mt-1">Chemical Engineering</p>
+              </div>
             </div>
           </div>
         </div>
