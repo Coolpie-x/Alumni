@@ -2,40 +2,40 @@ import React from 'react';
 
 const Faculty = () => {
   return (
-    <div className="bg-black text-white py-[4vw]">
-      {/* Yellow Header */}
-      <div className="bg-yellow-400 text-black text-center py-[2vw] mb-[3vw]">
-        <h1 className="lg:text-[3vw] text-[8vw] font-bold uppercase">Faculty</h1>
-      </div>
-      
-      {/* Faculty Cards Container */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-[4vw] px-[4vw]">
-        {/* First Faculty Card */}
-        <div className="relative w-[80%] md:w-[35%] lg:w-[25%]">
-          <div className="rounded-xl overflow-hidden border-2 border-white">
-            <img
-              src="https://nitdgp.ac.in/uploads/4feb993568a8bdf321c10fa950f736e8.jpg"
-              alt="Faculty Member"
-              className="w-full h-auto"
-            />
-            {/* Name Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent py-[1vw] px-[1vw]">
-              <h3 className="text-white lg:text-[1.5vw] text-[4vw] font-bold text-center">Shibendu Shekhar Roy</h3>
+    <div className="bg-black text-white py-12 flex items-center justify-center">
+      <div className="flex flex-col items-center w-[90%] max-w-6xl">
+        {/* Section Title */}
+        <h1 className="text-4xl md:text-5xl font-bold text-orange-300 mb-8 md:mb-12 uppercase text-center">
+          MEET OUR FACULTY ADVISERS
+        </h1>
+        
+        {/* Faculty Cards Container */}
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center w-full">
+          {/* First Faculty Card */}
+          <div className="relative group">
+            <div className="overflow-hidden rounded-xl border-2 border-white">
+              <img
+                src="https://nitdgp.ac.in/uploads/4feb993568a8bdf321c10fa950f736e8.jpg"
+                alt="Faculty Adviser"
+                className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
+              <h3 className="text-white text-xl font-bold">Shibendu Shekhar Roy</h3>
             </div>
           </div>
-        </div>
-        
-        {/* Second Faculty Card */}
-        <div className="relative w-[80%] md:w-[35%] lg:w-[25%]">
-          <div className="rounded-xl overflow-hidden border-2 border-white">
-            <img
-              src="https://via.placeholder.com/300x400" // Replace with actual faculty image
-              alt="Faculty Member"
-              className="w-full h-auto"
-            />
-            {/* Name Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent py-[1vw] px-[1vw]">
-              <h3 className="text-white lg:text-[1.5vw] text-[4vw] font-bold text-center">Faculty Name</h3>
+          
+          {/* Second Faculty Card */}
+          <div className="relative group">
+            <div className="overflow-hidden rounded-xl border-2 border-white">
+              <img
+                src="https://via.placeholder.com/256x288"  // Replace with actual image URL
+                alt="Faculty Adviser"
+                className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
+              <h3 className="text-white text-xl font-bold">Faculty Name</h3>
             </div>
           </div>
         </div>
