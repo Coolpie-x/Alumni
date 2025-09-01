@@ -10,7 +10,7 @@ const Faculty = () => {
         </h1>
         
         {/* Outer Box with #ffd4ac border */}
-        <div className="rounded-xl border-2 border-[#ffd4ac] p-8 md:p-10 w-full max-w-4xl">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center w-full">
           {/* Faculty Cards Container */}
           <div className="flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center w-full">
             {/* First Faculty Card */}
