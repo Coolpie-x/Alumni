@@ -15,13 +15,13 @@ const Faculty = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-xl border-2 border-white">
               <img
-                src="https://nitdgp.ac.in/uploads/4feb993568a8bdf321c10fa950f736e8.jpg"
+                src="https://nitdgp.ac.in/uploads/92.jpg"
                 alt="Faculty Adviser"
                 className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
-              <h3 className="text-white text-xl font-bold">Shibendu Shekhar Roy</h3>
+              <h3 className="text-white text-xl font-bold">Shri Krishan Rai</h3>
             </div>
           </div>
           
@@ -29,13 +29,13 @@ const Faculty = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-xl border-2 border-white">
               <img
-                src="https://via.placeholder.com/256x288"  // Replace with actual image URL
+                src="https://nitdgp.ac.in/uploads/8cbc75ef6d94a6dcb692307fee534694.jpeg"  // Replace with actual image URL
                 alt="Faculty Adviser"
                 className="w-64 h-72 object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-center">
-              <h3 className="text-white text-xl font-bold">Faculty Name</h3>
+              <h3 className="text-white text-xl font-bold">Manisha Bal</h3>
             </div>
           </div>
         </div>
