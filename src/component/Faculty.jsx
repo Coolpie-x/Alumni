@@ -2,22 +2,42 @@ import React from 'react';
 
 const Faculty = () => {
   return (
-    <div className="bg-black text-white lg:h-[25vw] flex items-center justify-center py-[1vw]">
-      <div className="border-2 border-white rounded-tr-[2vw] rounded-bl-[2vw]  lg:p-[1vw]  flex flex-col md:flex-row gap-[1vw] items-center lg:w-[80%] w-[80%]">
-        {/* Left Section - Text Content */}
-        <div className="flex-1 lg:px-[4vw] p-5">
-          <h1 className="lg:text-[2.4vw] text-[7vw] font-bold  text-orange-300 mb-[1vw] uppercase">Faculty Message</h1>
-          <p className="text-lg leading-relaxed ">"As Faculty Advisor of SAIC, I take immense pride in the team’s dedication to fostering alumni-student engagement. Their initiatives truly strengthen our institute’s legacy and inspire meaningful connections across generations of NIT Durgapur."<br /><span className='font-bold captailize lg:text-[1.5vw]'>-Shibendu Shekhar Roy</span>
-          </p>
+    <div className="bg-black text-white py-[4vw]">
+      {/* Yellow Header */}
+      <div className="bg-yellow-400 text-black text-center py-[2vw] mb-[3vw]">
+        <h1 className="lg:text-[3vw] text-[8vw] font-bold uppercase">Faculty</h1>
+      </div>
+      
+      {/* Faculty Cards Container */}
+      <div className="flex flex-col md:flex-row justify-center items-center gap-[4vw] px-[4vw]">
+        {/* First Faculty Card */}
+        <div className="relative w-[80%] md:w-[35%] lg:w-[25%]">
+          <div className="rounded-xl overflow-hidden border-2 border-white">
+            <img
+              src="https://nitdgp.ac.in/uploads/4feb993568a8bdf321c10fa950f736e8.jpg"
+              alt="Faculty Member"
+              className="w-full h-auto"
+            />
+            {/* Name Overlay */}
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent py-[1vw] px-[1vw]">
+              <h3 className="text-white lg:text-[1.5vw] text-[4vw] font-bold text-center">Shibendu Shekhar Roy</h3>
+            </div>
+          </div>
         </div>
-
-        {/* Right Section - Image */}
-        <div className=" flex-shrink-0 lg:px-[3vw] lg:py-[1vw] py-[2vw] px-[4vw]">
-          <img
-            src="https://nitdgp.ac.in/uploads/4feb993568a8bdf321c10fa950f736e8.jpg"
-            alt="Alumination Poster"
-            className="lg:w-[15vw] rounded-xl border border-white"
-          />
+        
+        {/* Second Faculty Card */}
+        <div className="relative w-[80%] md:w-[35%] lg:w-[25%]">
+          <div className="rounded-xl overflow-hidden border-2 border-white">
+            <img
+              src="https://via.placeholder.com/300x400" // Replace with actual faculty image
+              alt="Faculty Member"
+              className="w-full h-auto"
+            />
+            {/* Name Overlay */}
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent py-[1vw] px-[1vw]">
+              <h3 className="text-white lg:text-[1.5vw] text-[4vw] font-bold text-center">Faculty Name</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
