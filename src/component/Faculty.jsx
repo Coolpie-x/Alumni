@@ -6,7 +6,7 @@ const Faculty = () => {
       <div className="flex flex-col items-center w-[90%] max-w-6xl">
         {/* Section Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-orange-300 mb-8 md:mb-12 uppercase text-center">
-          MEET OUR FACULTY ADVISERS
+          MEET OUR FACULTY ADVISORS
         </h1>
         
         {/* Faculty Cards Container - No outer box */}

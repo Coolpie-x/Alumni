@@ -263,13 +263,14 @@ const Team = () => {
             linkedin: "https://www.linkedin.com/in/afreen-syeda-20a546326",
             insta: ""
           },
+          /*Dude left
           {
             name: "Anurag Kumar",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919537/anurag_xzzhsu.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/anurag-kumar-7630a2307",
             insta: "https://www.instagram.com/anurag0_08"
-          },
+          },*/
           {
             name: "B. Sanjana",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919534/sanjana_re8mwu.jpg",
@@ -318,14 +319,14 @@ const Team = () => {
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/purna-durga-karthik-paila-262321343",
             insta: "https://www.instagram.com/king_.karthik_official"
-          },
+          },/*lass left 
           {
             name: "Prachi Kedia",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919734/prachi_aaqdve.jpg",
             designation: "Executive Member",
             linkedin: "",
             insta: "https://www.instagram.com/prachi_kedia07"
-          },
+          },*/
           {
             name: "Raghav Maheshwari",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919532/raghav_tj6xsi.jpg",
@@ -339,14 +340,14 @@ const Team = () => {
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/sambhav-gupta-3a6131346",
             insta: "https://www.instagram.com/sambhavguptanitdgp"
-          },
+          },/*we kicked him out
           {
             name: "Sambhav Singh Parmar",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919533/parmar_bpvjat.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/sambhav-singh-parmar-989aa6350",
             insta: "https://www.instagram.com/sambhav_040"
-          },
+          },*/
           {
             name: "Sayam Das",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919538/sayam_ytbbl3.jpg",
@@ -374,14 +375,14 @@ const Team = () => {
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/vivek-munda-413b25290",
             insta: "https://www.instagram.com/vivek2051munda"
-          },
+          }/*Dude left
           {
             name: "Yash Kumar Singh",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1743919536/yash_qcbmb7.jpg",
             designation: "Executive Member",
             linkedin: "https://www.linkedin.com/in/yash-kumar-singh-18843232a",
             insta: "https://www.instagram.com/yashhh2501"
-          }
+          }*/
         ]
       },
             {
