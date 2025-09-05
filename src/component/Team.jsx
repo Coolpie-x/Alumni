@@ -247,7 +247,7 @@ const Team = () => {
             name: "Piyush Raj",
             img: "https://res.cloudinary.com/disucyhiq/image/upload/v1744229331/pie_uinvxz.jpg",
             designation: "Senior Executive Member",
-            linkedin: "n/a",
+            linkedin: "www.linkedin.com/in/piyushxraj",
             insta: "https://www.instagram.com/piyush_coolpie?igsh=eDB4NWt3bGU1cDJh"
           },
     
